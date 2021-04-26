@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Document</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel='stylesheet' href='/mystyle.css'>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fas fa-university" aria-hidden="true"></i>
+                            </span>
+                            <span class="title">
+                                <h1>PTU 1<sup>st</sup> Year </h1>
+                            </span>
+                        </a>
+
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+                    <hr style="background: rgb(255, 255, 255); height: 3px;border: none;">
+                    <li>
+                        <a href="#" onclick="mainSection();">
+
+                            <span class="icon">
+                                <i class="fas fa-chart-line" aria-hidden="true"></i>
+                            </span>
+                            <span class="title mainsection">
+                                <h2>DashBoard</h2>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+
+                            <span class="icon">
+                                <i class="fas fa-paste" aria-hidden="true"></i>
+                            </span>
+                            <span class="title">
+                                <h2>Assignments</h2>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+
+                            <span class="icon">
+                                <i class="fas fa-file-alt" aria-hidden="true"></i>
+                            </span>
+                            <span class="title">
+                                <h2>Exams</h2>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+
+                            <span class="icon">
+                                <i class="fas fa-code" aria-hidden="true"></i>
+                            </span>
+                            <span class="title">
+                                <h2>Coding</h2>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+
+                            <span class="icon">
+                                <i class="fas fa-signal" aria-hidden="true"></i>
+                            </span>
+                            <span class="title">
+                                <h2>Goals</h2>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+
+                            <span class="icon">
+                                <i class="fas fa-image" aria-hidden="true"></i>
+                            </span>
+                            <span class="title">
+                                <h2>Gallery</h2>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+
+                            <span class="icon">
+                                <i class="fas fa-sign-out-alt"></i>
+                            </span>
+                            <span class="title">
+                                <h2>Sign Out</h2>
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <main class="main">
+                <div class="topbar">
+                    <div class="toggle" onclick="onToggle();"></div>
+                    <div class="search">
+                        <input type="search" name="" id="input" placeholder="search here.....">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                    </div>
+                    <div class="profile">
+                        <img src="/photo2.jpg" alt="">
+                    </div>
+                </div>
+
+                <section class="section">
+                    <div class="first">
+                        <h1>Welcome to PTU </h1>
+                        <h2>Dashboard!</h2>
+                    <p>
+                        - Created by Rahul Parmar
+                    </p>
+                    </div>
+                    <div class="dashboard">
+                        <div class="subjects">
+
+
+                            <div class="physics">
+                                <div class="subheader">
+
+                                    <h2>Physics</h2>
+                                    <div class="level">
+                                        <p>Unit:</p>
+                                        <h4>2/4</h4>
+                                    </div>
+                                </div>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td class="td1"><h5>Tasks</h5></td>
+                                            <td  class="td2"><h5>Status</h5></td>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Assignment</td>
+                                            <td class="done">Done</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Theory understanding</td>
+                                            <td class="done">Done</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tests</td>
+                                            <td class="upcoming">Upcoming</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="chem">
+                                <div class="subheader">
+
+                                    <h2>Chemistry</h2>
+                                    <div class="level">
+                                        <p>Unit:</p>
+                                        <h4>3/4</h4>
+                                    </div>
+                                </div>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td class="td1"><h5>Tasks</h5></td>
+                                            <td class="td2"><h5>Status</h5></td>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Assignment</td>
+                                            <td class="done">Done</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Theory understanding</td>
+                                            <td class="done">Done</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tests</td>
+                                            <td class="upcoming">Upcoming</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="math">
+                                <div class="subheader">
+                                    
+                                    <h2>Math</h2>
+                                    <div class="level">
+                                        <p>Unit:</p>
+                                        <h4>3/4</h4>
+                                    </div>
+                                </div>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td class="td1"><h5>Tasks</h5></td>
+                                            <td class="td2"><h5>Status</h5></td>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Assignment</td>
+                                            <td class="done">Done</td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td>Theory understanding</td>
+                                            <td class="done">Done</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tests</td>
+                                            <td class="upcoming">Upcoming</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="english">
+                                <div class="subheader">
+
+                                    <h2>English</h2>
+                                    <div class="level">
+                                        <p>Unit:</p>
+                                        <h4>4/4</h4>
+                                    </div>
+                                </div>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td class="td1"><h5>Tasks</h5></td>
+                                            <td class="td2"><h5>Status</h5></td>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Assignment</td>
+                                            <td class="done">Done</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Theory understanding</td>
+                                            <td class="done">Done</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tests</td>
+                                            <td class="upcoming">Upcoming</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="events">
+                            <div class="tests">
+                                <h5>Upcoming Test on 17<sup>th</sup> April</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <script src="./myscript.js">
+        </script>
+    </body>
+
+</html>
